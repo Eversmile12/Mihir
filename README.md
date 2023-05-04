@@ -9,7 +9,7 @@ So, are you ready to create your own personal chatbot and start chatting with it
 1. Clone the repository:
 
 ```
-git clone https://github.com/your_username/your_repo.git
+git clone https://github.com/Eversmile12/Mihir
 ```
 
 2. Create a new virtual environment and activate it:
