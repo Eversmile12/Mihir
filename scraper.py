@@ -167,8 +167,8 @@ def scrape_text(link):
 
 
 if __name__ == "__main__":
-    links = findFirstPage("https://docs.alchemy.com")
-    visited = multiProcessPages(links, 100, "https://docs.alchemy.com")
+    links = findFirstPage("https://docs.alchemy.com/")
+    visited = multiProcessPages(links, 15, "https://docs.alchemy.com/")
     save_text_csv(visited)
     page_text_to_embeddings("page_text.csv")
     # id = upload_jsonl_file("training_data.jsonl")
